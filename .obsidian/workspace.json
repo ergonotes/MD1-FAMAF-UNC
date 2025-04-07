@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro tiraboschi/1.2 Ordenando los Enteros.md",
+                "file": "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro tiraboschi/2.4 Selecciones sin Orden.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.2 Ordenando los Enteros"
+              "title": "2.4 Selecciones sin Orden"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "bc2dce48cce1ccfe",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro tiraboschi/1.2 Ordenando los Enteros.md",
+                "file": "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro tiraboschi/1.4 El Principio de Inducción.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de 1.2 Ordenando los Enteros"
+              "title": "Enlaces entrantes de 1.4 El Principio de Inducción"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro tiraboschi/1.2 Ordenando los Enteros.md",
+                "file": "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro tiraboschi/1.4 El Principio de Inducción.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de 1.2 Ordenando los Enteros"
+              "title": "Enlaces salientes de 1.4 El Principio de Inducción"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro tiraboschi/1.2 Ordenando los Enteros.md",
+                "file": "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro tiraboschi/1.4 El Principio de Inducción.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de 1.2 Ordenando los Enteros"
+              "title": "Esquema de 1.4 El Principio de Inducción"
             }
           }
         ]
@@ -169,5 +169,18 @@
     }
   },
   "active": "44d52744b2c4add6",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro tiraboschi/2.3 Selecciones Ordenadas sin Repetición.md",
+    "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro tiraboschi/2.4 Selecciones sin Orden.md",
+    "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro tiraboschi/2.2 Selecciones Ordenadas con Repetición.md",
+    "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro tiraboschi/2.1 Principios Básicos de Conteo.md",
+    "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro tiraboschi/1.4 El Principio de Inducción.md",
+    "1, 5.md",
+    "assets/Pasted image 20250324212533.png",
+    "R. Podesta/Demostraciones.md",
+    "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro tiraboschi/Monotonía del Producto.md",
+    "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro tiraboschi/1.1 Aritmética.md",
+    "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro tiraboschi/1.2 Ordenando los Enteros.md",
+    "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro tiraboschi/1.3 Definiciones Recursivas.md"
+  ]
 }
