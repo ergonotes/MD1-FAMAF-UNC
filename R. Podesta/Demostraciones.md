@@ -1,1 +1,2 @@
 Demostración directa: se asume que p es verdadera; y en un número finito de pasos, y por medio de argumentos válidos y usando otros resultados previamente establecidos, se deduce que q es verdadera.
+
