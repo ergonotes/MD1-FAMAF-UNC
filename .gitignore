@@ -1,0 +1,10 @@
+.obsidian/
+
+.DS_Store
+Thumbs.db
+
+site/   
+.venv/
+__pycache__/
+.cache/
+docs/admin/config.yml

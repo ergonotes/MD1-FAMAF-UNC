@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f7be3b0f8f99e012",
+        "id": "0627c3678e42bb7b",
         "type": "tabs",
         "children": [
           {
-            "id": "44d52744b2c4add6",
+            "id": "46b9862255c66ecc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro Tiraboschi/4.1 Congruencias.md",
+                "file": "docs/oficial/MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi/3.4 Factorización en Primos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4.1 Congruencias"
+              "title": "3.4 Factorización en Primos"
             }
           }
         ]
@@ -168,37 +168,46 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "44d52744b2c4add6",
+  "active": "46b9862255c66ecc",
   "lastOpenFiles": [
-    "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro Tiraboschi/3.4 Factorización en Primos.md",
-    "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro Tiraboschi/4.1 Congruencias.md",
-    "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro Tiraboschi/Observación. Criba de Eratóstenes.md",
-    "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro Tiraboschi/Por qué √2 no es un número racional..md",
-    "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro Tiraboschi/3.3.B Mínimo Común Múltiplo.md",
-    "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro Tiraboschi/3.3.A Máximo Común Divisor.md",
-    "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro Tiraboschi/3.2 Divisibilidad.md",
-    "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro Tiraboschi/1.4 El Principio de Inducción.md",
-    "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro Tiraboschi/2.1 Principios Básicos de Conteo.md",
-    "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro Tiraboschi/2.3 Selecciones Ordenadas sin Repetición.md",
-    "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro Tiraboschi/2.4 Selecciones sin Orden.md",
-    "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro Tiraboschi/2.5 Teorema del Binomio.md",
-    "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro Tiraboschi/3.1 Cociente y Resto.md",
-    "R. Podesta/Demostraciones.md",
+    "docs/oficial/MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi/1.2 Ordenando los Enteros.md",
+    "docs/oficial/MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi/1.3 Definiciones Recursivas.md",
+    "MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi/3.4 Factorización en Primos.md",
+    "MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi/3.3.B Mínimo Común Múltiplo.md",
+    "MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi/3.2 Divisibilidad.md",
+    "MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi/3.3.A Máximo Común Divisor.md",
+    "Álgebra. Una introducción a la Aritmética y la Combinatoria - Ricardo Podestá y Paulo Tirao/7. Números Complejos.md",
+    "MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi/1.3 Definiciones Recursivas.md",
+    "MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi/5.4 Caminos y Ciclos.md",
+    "MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi/Por qué √2 no es un número racional..md",
+    "MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi/Observación. Criba de Eratóstenes.md",
+    "MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi/Ecuaciones Diofánticas - Álgebra I - UBA - Teresa Krick.md",
+    "MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi/Criterios de Divisibilidad.md",
+    "MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi/5.3 Valencias de un Grafo.md",
+    "MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi/2.5 Teorema del Binomio.md",
+    "MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi/2.2 Selecciones Ordenadas con Repetición.md",
+    "MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi/3.1 Cociente y Resto.md",
+    "MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi/2.3 Selecciones Ordenadas sin Repetición.md",
+    "MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi/4.3 Teorema de Fermat.md",
+    "MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi/5.2 Isomorfismo de Grafos.md",
     "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro Tiraboschi/1.1 Aritmética.md",
-    "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro Tiraboschi/1.3 Definiciones Recursivas.md",
-    "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro Tiraboschi/1.2 Ordenando los Enteros.md",
-    "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro Tiraboschi/2.2 Selecciones Ordenadas con Repetición.md",
+    "Álgebra. Una introducción a la Aritmética y la Combinatoria - Ricardo Podestá y Paulo Tirao",
+    "assets/Pasted image 20250607214314.png",
+    "assets/Pasted image 20250607210849.png",
+    "assets/Pasted image 20250603152732.png",
+    "assets/Pasted image 20250602192545.png",
+    "assets/Pasted image 20250520111132.png",
+    "assets/Pasted image 20250520110612.png",
+    "assets/Pasted image 20250519204127.png",
+    "MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi/Ejemplos que me ayudaron a entender el concepto pero no quise dejar en el resumen/Ejemplo de Ecuación Diofántica igualada a cero.md",
+    "MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi/Ejemplos que me ayudaron a entender el concepto pero no quise dejar en el resumen",
+    "MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi/5.5 Árboles.md",
+    "MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi/5.1 Grafos y sus Representaciones.md",
+    "MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi/4.2 Ecuación Lineal de Congruencia.md",
+    "MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi/4.1 Congruencias.md",
+    "MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi",
     "Pasted image 20250424092205.png",
     "Pasted image 20250422204000.png",
-    "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro tiraboschi/(Observación) Definición de \"cero a la cero\".md",
-    "Monotonía del Producto.md",
-    "Pasted image 20250413113905.png",
-    "Pasted image 20250413113328.png",
-    "assets/Pasted image 20250408115032.png",
-    "assets/Pasted image 20250407172738.png",
-    "assets/Pasted image 20250407170525.png",
-    "1, 5.md",
-    "assets/Pasted image 20250324212533.png",
-    "MATEMÁTICA DISCRETA I  FAMAF- UNC  Alejandro tiraboschi/Monotonía del Producto.md"
+    "Pasted image 20250413113905.png"
   ]
 }

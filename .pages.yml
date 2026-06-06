@@ -1,0 +1,16 @@
+media:
+  input: public/images
+  output: /images
+
+content:
+  - name: comunidad
+    label: Pages
+    path: docs/comunidad
+    type: collection
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: body
+        label: Content
+        type: rich-text
