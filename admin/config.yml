@@ -148,6 +148,32 @@ collections:
     - Acepto
     - ' Debes abrir el menú desplegable y aceptar las condiciones de uso y distribución
       para publicar/editar.'
+- name: oficial_general
+  label: '📚 Oficial: general'
+  folder: docs/oficial/general
+  create: true
+  delete: true
+  extension: md
+  summary: '{{title}}'
+  fields:
+  - label: Título
+    name: title
+    widget: string
+  - label: Cuerpo
+    name: body
+    widget: markdown
+  - label: Autoría y Responsabilidad (Obligatorio)
+    name: check_autoria_responsabilidad
+    widget: select
+    options:
+    - No estoy de acuerdo
+    - Acepto
+    default: No estoy de acuerdo
+    hint: 👉 Desplegá el menú y seleccioná "Acepto..." para habilitar el guardado.
+    pattern:
+    - Acepto
+    - ' Debes abrir el menú desplegable y aceptar las condiciones de uso y distribución
+      para publicar/editar.'
 - name: oficial__lgebra__una_introducci_n_a_la_aritm_tica_y_la_combinatoria___ricardo_podest__y_paulo_tirao
   label: '📚 Oficial: Álgebra. Una introducción a la Aritmética y la Combinatoria -
     Ricardo Podestá y Paulo Tirao'
