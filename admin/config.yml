@@ -1,0 +1,178 @@
+local_backend: false
+locale: es
+backend:
+  name: github
+  repo: tomasccc/MD1-FAMAF
+  branch: main
+  base_url: https://decap-proxy.tomycaruso.workers.dev
+  open_authoring: true
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: '-'
+publish_mode: editorial_workflow
+media_folder: docs/assets/comunidad
+public_folder: /assets/comunidad
+collections:
+- name: comunidad_raiz
+  label: 📂 Comunidad (Raíz / Crear Carpeta)
+  folder: docs/comunidad
+  path: '{{carpeta}}/{{slug}}'
+  create: true
+  delete: true
+  extension: md
+  summary: '{{title}}'
+  fields:
+  - label: 📁 Destino del apunte
+    name: carpeta
+    widget: string
+    default: general
+    required: true
+    hint: '👉 Para archivo suelto: dejá la palabra "general".
+
+      👉 Para una nueva carpeta: borrá "general" y escribí el nombre SIN ESPACIOS (ej:
+      unidad-4).'
+    pattern:
+    - ^[a-zA-Z0-9_-]+$
+    - '⚠️ El nombre no puede tener espacios, puntos ni barras. Usá guiones (ejemplo:
+      apuntes-extra).'
+  - label: Título
+    name: title
+    widget: string
+    hint: El título de la nota.
+  - label: Cuerpo
+    name: body
+    widget: markdown
+  - label: Autoría y Responsabilidad (Obligatorio)
+    name: check_autoria_responsabilidad
+    widget: select
+    options:
+    - No estoy de acuerdo
+    - Acepto
+    default: No estoy de acuerdo
+    hint: 👉 Desplegá el menú y seleccioná "Acepto..." para habilitar el guardado.
+    pattern:
+    - Acepto
+    - ' Debes abrir el menú desplegable y aceptar las condiciones de uso y distribución
+      para publicar/editar.'
+- name: comunidad_general
+  label: '📚 Comunidad: general'
+  folder: docs/comunidad/general
+  create: true
+  delete: true
+  extension: md
+  summary: '{{title}}'
+  fields:
+  - label: Título
+    name: title
+    widget: string
+  - label: Cuerpo
+    name: body
+    widget: markdown
+  - label: Autoría y Responsabilidad (Obligatorio)
+    name: check_autoria_responsabilidad
+    widget: select
+    options:
+    - No estoy de acuerdo
+    - Acepto
+    default: No estoy de acuerdo
+    hint: 👉 Desplegá el menú y seleccioná "Acepto..." para habilitar el guardado.
+    pattern:
+    - Acepto
+    - ' Debes abrir el menú desplegable y aceptar las condiciones de uso y distribución
+      para publicar/editar.'
+- name: oficial_raiz
+  label: 📂 Oficial (Raíz / Crear Carpeta)
+  folder: docs/oficial
+  path: '{{carpeta}}/{{slug}}'
+  create: true
+  delete: true
+  extension: md
+  summary: '{{title}}'
+  fields:
+  - label: 📁 Destino del apunte
+    name: carpeta
+    widget: string
+    default: general
+    required: true
+    hint: '👉 Para archivo suelto: dejá la palabra "general".
+
+      👉 Para una nueva carpeta: borrá "general" y escribí el nombre SIN ESPACIOS (ej:
+      unidad-4).'
+    pattern:
+    - ^[a-zA-Z0-9_-]+$
+    - '⚠️ El nombre no puede tener espacios, puntos ni barras. Usá guiones (ejemplo:
+      apuntes-extra).'
+  - label: Título
+    name: title
+    widget: string
+    hint: El título de la nota.
+  - label: Cuerpo
+    name: body
+    widget: markdown
+  - label: Autoría y Responsabilidad (Obligatorio)
+    name: check_autoria_responsabilidad
+    widget: select
+    options:
+    - No estoy de acuerdo
+    - Acepto
+    default: No estoy de acuerdo
+    hint: 👉 Desplegá el menú y seleccioná "Acepto..." para habilitar el guardado.
+    pattern:
+    - Acepto
+    - ' Debes abrir el menú desplegable y aceptar las condiciones de uso y distribución
+      para publicar/editar.'
+- name: oficial_matem_tica_discreta_i__famaf_unc__alejandro_tiraboschi
+  label: '📚 Oficial: MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi'
+  folder: docs/oficial/MATEMÁTICA DISCRETA I  FAMAF-UNC  Alejandro Tiraboschi
+  create: true
+  delete: true
+  extension: md
+  summary: '{{title}}'
+  fields:
+  - label: Título
+    name: title
+    widget: string
+  - label: Cuerpo
+    name: body
+    widget: markdown
+  - label: Autoría y Responsabilidad (Obligatorio)
+    name: check_autoria_responsabilidad
+    widget: select
+    options:
+    - No estoy de acuerdo
+    - Acepto
+    default: No estoy de acuerdo
+    hint: 👉 Desplegá el menú y seleccioná "Acepto..." para habilitar el guardado.
+    pattern:
+    - Acepto
+    - ' Debes abrir el menú desplegable y aceptar las condiciones de uso y distribución
+      para publicar/editar.'
+- name: oficial__lgebra__una_introducci_n_a_la_aritm_tica_y_la_combinatoria___ricardo_podest__y_paulo_tirao
+  label: '📚 Oficial: Álgebra. Una introducción a la Aritmética y la Combinatoria -
+    Ricardo Podestá y Paulo Tirao'
+  folder: docs/oficial/Álgebra. Una introducción a la Aritmética y la Combinatoria
+    - Ricardo Podestá y Paulo Tirao
+  create: true
+  delete: true
+  extension: md
+  summary: '{{title}}'
+  fields:
+  - label: Título
+    name: title
+    widget: string
+  - label: Cuerpo
+    name: body
+    widget: markdown
+  - label: Autoría y Responsabilidad (Obligatorio)
+    name: check_autoria_responsabilidad
+    widget: select
+    options:
+    - No estoy de acuerdo
+    - Acepto
+    default: No estoy de acuerdo
+    hint: 👉 Desplegá el menú y seleccioná "Acepto..." para habilitar el guardado.
+    pattern:
+    - Acepto
+    - ' Debes abrir el menú desplegable y aceptar las condiciones de uso y distribución
+      para publicar/editar.'
