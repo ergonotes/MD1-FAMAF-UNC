@@ -2,7 +2,7 @@ local_backend: false
 locale: es
 backend:
   name: github
-  repo: tomasccc/MD1-FAMAF
+  repo: ergonotes/MD1-FAMAF-UNC
   branch: main
   base_url: https://decap-proxy.tomycaruso.workers.dev
   open_authoring: true
