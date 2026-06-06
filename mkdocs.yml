@@ -1,9 +1,9 @@
 site_name: !ENV [SITE_NAME, "ERGO"]
 site_description: !ENV [SITE_DESCRIPTION, "Sitio estático para notas colaborativas"]
-site_url: !ENV [SITE_URL, "https://tomasccc.github.io/"]
+site_url: !ENV [SITE_URL, "https://ergonotes.github.io/MD1-FAMAF-UNC"]
 
-repo_url: !ENV [REPO_URL, "https://github.com/tomasccc/CALCII-FAMAF-UNC"]
-repo_name: !ENV [REPO_NAME, "tomasccc/CALCII-FAMAF-UNC"]
+repo_url: !ENV [REPO_URL, "https://github.com/tomasccc/MD1-FAMAF-UNC"]
+repo_name: !ENV [REPO_NAME, "tomasccc/MD1-FAMAF-UNC"]
 edit_uri: !ENV [EDIT_URI, "edit/main/docs/"]
 
 copyright: |
@@ -78,7 +78,7 @@ plugins:
       type: timeago
       fallback_to_build_date: true
   - git-committers:
-      repository: !ENV [REPO_NAME, "tomasccc/ergo"] 
+      repository: !ENV [REPO_NAME, "tomasccc/MD1-FAMAF-UNC"] 
       branch: main
 
   - git-authors:
