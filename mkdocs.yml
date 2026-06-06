@@ -2,8 +2,8 @@ site_name: !ENV [SITE_NAME, "ERGO"]
 site_description: !ENV [SITE_DESCRIPTION, "Sitio estático para notas colaborativas"]
 site_url: !ENV [SITE_URL, "https://ergonotes.github.io/MD1-FAMAF-UNC"]
 
-repo_url: !ENV [REPO_URL, "https://github.com/tomasccc/MD1-FAMAF-UNC"]
-repo_name: !ENV [REPO_NAME, "tomasccc/MD1-FAMAF-UNC"]
+repo_url: !ENV [REPO_URL, "https://github.com/ergonotes/MD1-FAMAF-UNC"]
+repo_name: !ENV [REPO_NAME, "ergonotes/MD1-FAMAF-UNC"]
 edit_uri: !ENV [EDIT_URI, "edit/main/docs/"]
 
 copyright: |
@@ -57,7 +57,7 @@ extra:
       name: Invitame un café / Colaborar
   decap_proxy: https://decap-proxy.tomycaruso.workers.dev
   giscus:
-    repo: tomasccc/ergo-comments
+    repo: ergonotes/ergo-comments
     repo_id: R_kgDOSfmUxg
     category: Announcements
     category_id: DIC_kwDOSfmUxs4C9Nn1
@@ -78,7 +78,7 @@ plugins:
       type: timeago
       fallback_to_build_date: true
   - git-committers:
-      repository: !ENV [REPO_NAME, "tomasccc/MD1-FAMAF-UNC"] 
+      repository: !ENV [REPO_NAME, "ergonotes/MD1-FAMAF-UNC"] 
       branch: main
 
   - git-authors:
