@@ -1,8 +1,6 @@
 ---
 carpeta: general
-title: Nota de prueba
+title: Nota de prueba1
 check_autoria_responsabilidad: Acepto
 ---
-Nota de pruebaasdasdasd.
-
-MODIFICAICOA
+Nota de prueba!. Modificación
