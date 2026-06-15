@@ -219,7 +219,7 @@
         const textoTitulo = this.parentElement.textContent.replace(/[¶#∞]/g, "").trim();
         document.getElementById("titulo-compartir").innerText = textoTitulo;
 
-        const mensaje = encodeURIComponent("¡Mirá este apunte de FAMAF! " + textoTitulo);
+        const mensaje = encodeURIComponent("¡Mirá este apunte! " + textoTitulo);
         const urlEncodeada = encodeURIComponent(urlACompartir);
 
         btnWsp.href = "https://api.whatsapp.com/send?text=" + mensaje + "%20" + urlEncodeada;
