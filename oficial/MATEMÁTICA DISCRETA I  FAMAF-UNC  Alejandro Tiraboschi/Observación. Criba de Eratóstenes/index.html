@@ -2306,7 +2306,7 @@
         const textoTitulo = this.parentElement.textContent.replace(/[¶#∞]/g, "").trim();
         document.getElementById("titulo-compartir").innerText = textoTitulo;
 
-        const mensaje = encodeURIComponent("¡Mirá este apunte de FAMAF! " + textoTitulo);
+        const mensaje = encodeURIComponent("¡Mirá este apunte! " + textoTitulo);
         const urlEncodeada = encodeURIComponent(urlACompartir);
 
         btnWsp.href = "https://api.whatsapp.com/send?text=" + mensaje + "%20" + urlEncodeada;
@@ -2468,8 +2468,6 @@ ERGO no se responsabiliza por el contenido subido por terceros en la sección Co
         <script src="../../../js/timeago_mkdocs_material.js"></script>
       
         <script src="../../../javascripts/mathjax.js"></script>
-      
-        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
