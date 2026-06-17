@@ -50,3 +50,7 @@ Teniendo  $a X +b Y =c$  y sean $a,b,c \in Z,$ con $a,b$ no nulos. $$\begin{alig
 \end{align*}$$**Demostración.** Sabemos que si $(a : b) \nmid c$, la ecuación no admite solución. Cuando $(a : b) | c$, tenemos al menos una solución particular $(x_0,y_0) \in Z^2$, es decir, $ax_0+by_0=c$. Y se tiene:$$ax + by = c \iff ax + by = a x_0 + b y_0 \iff a (x - x_0) + b (y - y_0) = 0$$si pasamos restando y demás... Es decir, $(x,y)$ es solución de $a X +b Y =c$ si y sólo si $(x-x_0,y-y_o)$ es solución de $a X +b Y =0$. O sea, **por la demostración anterior** tenemos que existe $k\in Z$ tal que $$x - x_0 = b' k, \ y - y_0 = -a' k, \ \text{osea} \ x = x_0 + b' k, \ y = y_0 - a' k$$
 ***
 En el libro fuente de este apartado se encuentran ejemplos de resoluciones de ecuaciones de este tipo...
+****
+
+!!! quote "Bibliografía y Fuentes"
+    Estos apuntes fueron redactados de forma colaborativa basándose en las clases de la cátedra oficial y el apunte *Álgebra I - UBA - Teresa Krick*.

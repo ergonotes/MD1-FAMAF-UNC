@@ -1,0 +1,2 @@
+!!! quote "Bibliografía y Fuentes"
+    Estos apuntes fueron redactados de forma colaborativa basándose en las clases de la cátedra oficial y el libro *Álgebra. Una introducción a la Aritmética y la Combinatoria - Ricardo Podestá y Paulo Tirao*.

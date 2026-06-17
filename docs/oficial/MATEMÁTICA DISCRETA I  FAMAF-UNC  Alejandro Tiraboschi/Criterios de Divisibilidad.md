@@ -19,3 +19,5 @@ Como $10≡−1 \pmod{11}$, entonces $d_i \cdot 10^i \equiv d_i \cdot (-1)^i \pm
 - Suma de posiciones pares: $5 + 3 + 1 = 9$.
 - Suma alternada: $12−9=3$.
 - Vemos que $3$ no es divisible por $11$.
+****
+--8<-- "includes/algebra2.md"
