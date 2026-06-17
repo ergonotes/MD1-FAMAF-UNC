@@ -1504,14 +1504,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../Ecuaciones%20Diof%C3%A1nticas%20-%20%C3%81lgebra%20I%20-%20UBA%20-%20Teresa%20Krick/" class="md-nav__link">
+      <a href="../Ecuaciones%20Diof%C3%A1nticas/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Ecuaciones Diofánticas Álgebra I UBA Teresa Krick
+    Ecuaciones Diofánticas
   
 
     
@@ -2117,7 +2117,7 @@ Escribiremos <span class="arithmatex">\(G = (V,E)\)</span> y diremos que <span c
 <hr />
 <p>La restricción a un conjunto finito no es esencial, pero es conveniente ya que no consideraremos “grafos infinitos” en este apunte.
 Un ejemplo del grafo <span class="arithmatex">\(G = (V,E)\)</span> podría ser  <span class="arithmatex">\(V = \{a, b, c, d, z\}\)</span> junto con  <span class="arithmatex">\(E = \{\{a, b\}, \{a, d\}, \{b, z\}, \{c, d\}, \{d, z\}\}\)</span>. Su representación pictórica es:</p>
-<p><em>Imagen no encontrada: Pasted image 20250519204127.png</em></p>
+<p><img alt="Pasted image 20250519204127.png" src="../../../assets%201/Pasted%20image%2020250519204127.png" /></p>
 <hr />
 <p><strong>Definición 5.1.2.</strong> La valencia <span class="arithmatex">\(\delta\)</span>, o grado de un vértice <span class="arithmatex">\(v\)</span> en un grafo <span class="arithmatex">\(G = (V,E)\)</span> es el número de aristas de <span class="arithmatex">\(G\)</span> que contienen a <span class="arithmatex">\(v\)</span>.</p>
 <div class="arithmatex">\[\delta(v) = |D_v|, \ \text{donde} \ D_v = \{e \in E \mid v \in e\}\]</div>
@@ -2139,12 +2139,12 @@ Las listas de adyacencia son redundantes pero como todo lenguaje de programació
 <p><strong>¿Cuántas aristas tiene <span class="arithmatex">\(K_n\)</span>?</strong>. De cada vértice "salen" <span class="arithmatex">\(n-1\)</span> aristas. Luego, cada vértice tiene valencia <span class="arithmatex">\(n-1\)</span>. Si sumamos <span class="arithmatex">\(n\)</span> veces las <span class="arithmatex">\(n-1\)</span> aristas que salen de cada vértice es claro que estamos contando cada arista dos veces, luego el número total de aristas es <span class="arithmatex">\(n(n-1)/2\)</span>.
 Esto a su vez, es una demostración, usando grafos, de que <span class="arithmatex">\(\sum_{i=1}^{n} i = \frac{n(n-1)}{2}\)</span>.</p>
 <p>Otra forma de conocer la cantidad de aristas de un grafo completo es a través del número combinatorio, tomemos por ejemplo el grafo <span class="arithmatex">\(K_5\)</span> de la imagen.</p>
-<p><em>Imagen no encontrada: Pasted image 20250603152732.png</em></p>
+<p><img alt="Pasted image 20250603152732.png" src="../../../assets%201/Pasted%20image%2020250603152732.png" /></p>
 <p>Al ser este grafo completo, cada arista conecta dos vértices, por lo que para contar la cantidad de aristas estaríamos seleccionando <span class="arithmatex">\(2\)</span> vértices sin orden del total de vértices, donde cada combinación sería una arista. La cantidad de aristas sería <span class="arithmatex">\(\binom{5}{2}=10\)</span> en este caso.</p>
 <hr />
 <h5 id="grafo-planar"><strong>Grafo Planar.</strong>*<a class="headerlink" href="#grafo-planar" title="Permanent link">&para;</a></h5>
 <p>Un grafo planar es un grafo para el que existe un dibujo del grafo en el plano tal que no hay ningún cruce de aristas. El de la imagen es un ejemplo de estos. </p>
-<p><em>Imagen no encontrada: Pasted image 20250602192545.png</em></p>
+<p><img alt="Pasted image 20250602192545.png" src="../../../assets%201/Pasted%20image%2020250602192545.png" /></p>
 <p>Un grafo planar divide al plano en regiones delimitadas por aristas. El de la imagen determina 4 regiones:
 - la delimitada por las aristas AB, BD y DA,
 - la delimitada por BC, CD y DB.
@@ -2154,6 +2154,11 @@ Esto a su vez, es una demostración, usando grafos, de que <span class="arithmat
 <p>Para todo grafo planar vale el <strong>Teorema de Euler para poliedros.</strong> Este dice</p>
 <div class="arithmatex">\[C+V-A=2,\]</div>
 <p>donde <span class="arithmatex">\(C\)</span> es el número de regiones (en el caso de poliedros, caras), <span class="arithmatex">\(A\)</span> es el número de aristas y <span class="arithmatex">\(V\)</span> es el número de vértices.</p>
+<hr />
+<div class="admonition quote">
+<p class="admonition-title">Bibliografía y Fuentes</p>
+<p>Estos apuntes fueron redactados de forma colaborativa basándose en las clases de la cátedra oficial y el apunte <em>Matemática Discreta I. Alejandro Tiraboschi</em>.</p>
+</div>
 
 
 
@@ -2176,7 +2181,7 @@ Esto a su vez, es una demostración, usando grafos, de que <span class="arithmat
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="June 8, 2025 12:45:20 UTC"><span class="timeago" datetime="2025-06-08T12:45:20+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="June 8, 2025 12:45:20 UTC">2025-06-08</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="June 17, 2026 22:12:23 UTC"><span class="timeago" datetime="2026-06-17T22:12:23+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="June 17, 2026 22:12:23 UTC">2026-06-17</span>
   </span>
 
     
@@ -2196,12 +2201,13 @@ Esto a su vez, es una demostración, usando grafos, de que <span class="arithmat
   <span class="md-source-file__fact">
     <span class="md-icon" title="Contributors">
       
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4m0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 5.5A3.5 3.5 0 0 1 15.5 9a3.5 3.5 0 0 1-3.5 3.5A3.5 3.5 0 0 1 8.5 9 3.5 3.5 0 0 1 12 5.5M5 8c.56 0 1.08.15 1.53.42-.15 1.43.27 2.85 1.13 3.96C7.16 13.34 6.16 14 5 14a3 3 0 0 1-3-3 3 3 0 0 1 3-3m14 0a3 3 0 0 1 3 3 3 3 0 0 1-3 3c-1.16 0-2.16-.66-2.66-1.62a5.54 5.54 0 0 0 1.13-3.96c.45-.27.97-.42 1.53-.42M5.5 18.25c0-2.07 2.91-3.75 6.5-3.75s6.5 1.68 6.5 3.75V20h-13zM0 20v-1.5c0-1.39 1.89-2.56 4.45-2.9-.59.68-.95 1.62-.95 2.65V20zm24 0h-3.5v-1.75c0-1.03-.36-1.97-.95-2.65 2.56.34 4.45 1.51 4.45 2.9z"/></svg>
       
     </span>
     <nav>
       
-        <a href="mailto:143461944+tomasccc@users.noreply.github.com">Tomás Caruso</a>
+        <a href="mailto:143461944+tomasccc@users.noreply.github.com">Tomás Caruso</a>, 
+        <a href="mailto:405310@tecnicatura.frc.utn.edu.ar">405310-Caruso-Tomas</a>
     </nav>
   </span>
 

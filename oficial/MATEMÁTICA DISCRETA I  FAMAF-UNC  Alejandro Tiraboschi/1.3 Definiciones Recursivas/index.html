@@ -915,9 +915,10 @@
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="Demostración. Definimos \(X={z\in \mathbb{Z}: 0&lt;z&lt;1}\)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#notacion-general-de-la-sumatoria" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -927,8 +928,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#ejemplo-1-suma-de-los-primeros-n-numeros-naturales" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -936,6 +937,11 @@
       
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1537,14 +1543,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../Ecuaciones%20Diof%C3%A1nticas%20-%20%C3%81lgebra%20I%20-%20UBA%20-%20Teresa%20Krick/" class="md-nav__link">
+      <a href="../Ecuaciones%20Diof%C3%A1nticas/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Ecuaciones Diofánticas Álgebra I UBA Teresa Krick
+    Ecuaciones Diofánticas
   
 
     
@@ -2108,9 +2114,10 @@
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="Demostración. Definimos \(X={z\in \mathbb{Z}: 0&lt;z&lt;1}\)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#notacion-general-de-la-sumatoria" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2120,8 +2127,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#ejemplo-1-suma-de-los-primeros-n-numeros-naturales" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2129,6 +2136,11 @@
       
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2178,20 +2190,23 @@
 <h1 id="13-definiciones-recursivas">1.3 Definiciones Recursivas<a class="headerlink" href="#13-definiciones-recursivas" title="Permanent link">&para;</a></h1>
 <p><span class="arithmatex">\(\forall X \subseteq \mathbb{Z}, X\neq  \emptyset\)</span> y <span class="arithmatex">\(X\)</span> es acotado inferiormente <span class="arithmatex">\(\Rightarrow\)</span> <span class="arithmatex">\(X\)</span> posee un mínimo (por el axioma del buen orden)</p>
 <h6 id="lema-nexists-z-in-mathbbz-0z1">Lema:  <span class="arithmatex">\(\nexists z \in \mathbb{Z}, 0&lt;z&lt;1\)</span><a class="headerlink" href="#lema-nexists-z-in-mathbbz-0z1" title="Permanent link">&para;</a></h6>
-<h6 id="demostracion-definimos-xzin-mathbbz-0z1">Demostración. Definimos <span class="arithmatex">\(X={z\in \mathbb{Z}: 0&lt;z&lt;1}\)</span><a class="headerlink" href="#demostracion-definimos-xzin-mathbbz-0z1" title="Permanent link">&para;</a></h6>
+<h4 id="demostracion-definimos-xzin-mathbbz-0z1">Demostración. Definimos <span class="arithmatex">\(X={z\in \mathbb{Z}: 0&lt;z&lt;1}\)</span><a class="headerlink" href="#demostracion-definimos-xzin-mathbbz-0z1" title="Permanent link">&para;</a></h4>
 <p>Queremos ver que <span class="arithmatex">\(X \neq \emptyset\)</span> . Por lo que asumimos que <span class="arithmatex">\(X \neq \emptyset\)</span> . Si <span class="arithmatex">\(X \neq \emptyset\)</span> , significa que <span class="arithmatex">\(X\)</span> es acotado inferiormente y por lo tanto <span class="arithmatex">\(\exists m \in X\)</span> mínimo.
-A su vez, sabemos que <span class="arithmatex">\(0&lt;m \space,m&lt;1\)</span> <span class="arithmatex">\(\Rightarrow\)</span> <span class="arithmatex">\(0&lt;m^2,m^2&lt;m\)</span>  por Monotonía del Producto
-Esto nos dice que:</p>
+A su vez, sabemos que <span class="arithmatex">\(0&lt;m \space,m&lt;1\)</span> <span class="arithmatex">\(\Rightarrow\)</span> <span class="arithmatex">\(0&lt;m^2,m^2&lt;m\)</span>  por Monotonía del Producto</p>
+<p>Esto nos dice que:</p>
 <div class="arithmatex">\[0&lt;m^2&lt;m&lt;1\]</div>
 <p>lo cual es una <strong>contradicción</strong>. <span class="arithmatex">\(\Rightarrow\)</span> <span class="arithmatex">\(X=\emptyset\)</span> </p>
 <hr />
-<p>Frecuentemente encontramos una expresión de la forma <span class="arithmatex">\(u_n\)</span>, donde <span class="arithmatex">\(n\)</span> indica cualquier entero positivo: por ejemplo, podríamos tener <span class="arithmatex">\(u_n = 3n+2\)</span>, o <span class="arithmatex">\(u_n = (n+1)(n+2)(n+3)\)</span>. En estos ejemplos <span class="arithmatex">\(u_n\)</span> es dado por una fórmula explícita o <strong>cerrada</strong> y no existe dificultad en calcular <span class="arithmatex">\(u_n\)</span> cuando se nos da un valor específico para <span class="arithmatex">\(n\)</span>. Sin embargo en muchos casos el valor de <span class="arithmatex">\(u_n\)</span> viene dado por los valores anteriores y no conocemos una fórmula cerrada; Por ejemplo:</p>
+<p>Frecuentemente encontramos una expresión de la forma <span class="arithmatex">\(u_n\)</span>, donde <span class="arithmatex">\(n\)</span> indica cualquier entero positivo: por ejemplo, podríamos tener <span class="arithmatex">\(u_n = 3n+2\)</span>, o <span class="arithmatex">\(u_n = (n+1)(n+2)(n+3)\)</span>. </p>
+<p>En estos ejemplos <span class="arithmatex">\(u_n\)</span> es dado por una fórmula explícita o <strong>cerrada</strong> y no existe dificultad en calcular <span class="arithmatex">\(u_n\)</span> cuando se nos da un valor específico para <span class="arithmatex">\(n\)</span>. </p>
+<p>Sin embargo en muchos casos el valor de <span class="arithmatex">\(u_n\)</span> viene dado por los valores anteriores y no conocemos una fórmula cerrada; Por ejemplo:</p>
 <div class="arithmatex">\[u_1 =1, \space \space \space \space u_2 =2,\space \space \space \space u_n =u_{n−1} +u_{n−2}, \space \space \space \space n ⩾3.\]</div>
 <p>Para calcular los valores de <span class="arithmatex">\(u_n\)</span> para todo <span class="arithmatex">\(n\)</span> de <span class="arithmatex">\(\mathbb{N}\)</span> podemos proceder como sigue:</p>
 <div class="arithmatex">\[u_3 = u_2+u_1 = 2+1 = 3, \]</div>
 <div class="arithmatex">\[u_4 = u_3+u_2 = 3+2 = 5,\]</div>
 <div class="arithmatex">\[u_5 = u_4+u_3 = 5+3 = 8,\]</div>
-<p>y así siguiendo. Este es un ejemplo de una <strong><em>definición recursiva</em></strong>, ya que en su definición, se hace referencia a valores <span class="arithmatex">\(u_n\)</span> anteriores. Es “obvio” que el método dará un valor único de un para todo entero positivo <span class="arithmatex">\(n\)</span>. Pero hablando estrictamente necesitamos el axioma del buen orden para justificar eso.
+<p>y así siguiendo. Este es un ejemplo de una <strong><em>definición recursiva</em></strong>, ya que en su definición, se hace referencia a valores <span class="arithmatex">\(u_n\)</span> anteriores. Es “obvio” que el método dará un valor único de un para todo entero positivo <span class="arithmatex">\(n\)</span>. </p>
+<p>Pero hablando estrictamente necesitamos el axioma del buen orden para justificar eso.
 El método de recursión será muy común en el apunte. Existen otras formas de este procedimiento que se "esconden" por su notación.</p>
 <div class="arithmatex">\[\sum_{r=1}^{n} 2r-1,\space \space \space 1+3+5+...+(2n-1) \]</div>
 <p>No basta con decir que uno es lo mismo que otro, porque cada uno contiene un misterioso símbolo <span class="arithmatex">\(\sum\)</span> y <span class="arithmatex">\(...\)</span> respectivamente. Cada uno de ellos es equivalente a la expresión <span class="arithmatex">\(s_n\)</span> dada por la siguiente definición recursiva:</p>
@@ -2199,12 +2214,14 @@ El método de recursión será muy común en el apunte. Existen otras formas de 
 <p>Esto hace ver que son expresiones definidas  <span class="arithmatex">\(\forall n \in \mathbb{N}\)</span>  </p>
 <h6 id="notacion-general-de-la-sumatoria"><strong>Notación general de la sumatoria</strong><a class="headerlink" href="#notacion-general-de-la-sumatoria" title="Permanent link">&para;</a></h6>
 <div class="arithmatex">\[\sum_{i=a}^{b} f(i)\]</div>
-<p>Donde:
-- <span class="arithmatex">\(\sum\)</span> indica la sumatoria.
-- <span class="arithmatex">\(i\)</span> es el <strong>índice de suma</strong>, que varía en cada término.
-- <span class="arithmatex">\(a\)</span> es el <strong>límite inferior</strong> (valor inicial del índice).
-- <span class="arithmatex">\(b\)</span> es el <strong>límite superior</strong> (valor final del índice).
-- <span class="arithmatex">\(f(i)\)</span> es la función o expresión matemática que se va sumando.</p>
+<p>Donde:</p>
+<ul>
+<li><span class="arithmatex">\(\sum\)</span> indica la sumatoria.</li>
+<li><span class="arithmatex">\(i\)</span> es el <strong>índice de suma</strong>, que varía en cada término.</li>
+<li><span class="arithmatex">\(a\)</span> es el <strong>límite inferior</strong> (valor inicial del índice).</li>
+<li><span class="arithmatex">\(b\)</span> es el <strong>límite superior</strong> (valor final del índice).</li>
+<li><span class="arithmatex">\(f(i)\)</span> es la función o expresión matemática que se va sumando.</li>
+</ul>
 <h6 id="ejemplo-1-suma-de-los-primeros-n-numeros-naturales"><strong>Ejemplo 1: Suma de los primeros <span class="arithmatex">\(n\)</span> números naturales</strong><a class="headerlink" href="#ejemplo-1-suma-de-los-primeros-n-numeros-naturales" title="Permanent link">&para;</a></h6>
 <p><span class="arithmatex">\(\sum_{i=1}^{5} i = 1 + 2 + 3 + 4 + 5 = 15\)</span></p>
 <h3 id="situacion-1-casos-base-incluidos-en-una-definicion-explicita">Situación 1: Casos base incluidos en una definición explícita<a class="headerlink" href="#situacion-1-casos-base-incluidos-en-una-definicion-explicita" title="Permanent link">&para;</a></h3>
@@ -2218,12 +2235,19 @@ El método de recursión será muy común en el apunte. Existen otras formas de 
 </ul>
 <hr />
 <h3 id="forma-general-de-la-productoria">Forma general de la productoría<a class="headerlink" href="#forma-general-de-la-productoria" title="Permanent link">&para;</a></h3>
-<p>La notación básica es:
-<span class="arithmatex">\(\prod_{i=a}^{b} f(i)\)</span>
-- <span class="arithmatex">\(i\)</span> es el índice del producto (una variable que toma valores enteros).
-- <span class="arithmatex">\(a\)</span> es el límite inferior (el valor inicial de iii).
-- <span class="arithmatex">\(b\)</span> es el límite superior (el valor final de iii).
-- <span class="arithmatex">\(f(i)\)</span> es la expresión o función que se evalúa para cada valor de iii, y todos esos resultados se multiplican entre sí.</p>
+<p>La notación básica es:</p>
+<div class="arithmatex">\[\prod_{i=a}^{b} f(i)\]</div>
+<ul>
+<li><span class="arithmatex">\(i\)</span> es el índice del producto (una variable que toma valores enteros).</li>
+<li><span class="arithmatex">\(a\)</span> es el límite inferior (el valor inicial de iii).</li>
+<li><span class="arithmatex">\(b\)</span> es el límite superior (el valor final de iii).</li>
+<li><span class="arithmatex">\(f(i)\)</span> es la expresión o función que se evalúa para cada valor de iii, y todos esos resultados se multiplican entre sí.</li>
+</ul>
+<hr />
+<div class="admonition quote">
+<p class="admonition-title">Bibliografía y Fuentes</p>
+<p>Estos apuntes fueron redactados de forma colaborativa basándose en las clases de la cátedra oficial y el apunte <em>Matemática Discreta I. Alejandro Tiraboschi</em>.</p>
+</div>
 
 
 
@@ -2246,7 +2270,7 @@ El método de recursión será muy común en el apunte. Existen otras formas de 
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="June 6, 2026 00:24:30 UTC"><span class="timeago" datetime="2026-06-06T00:24:30+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="June 6, 2026 00:24:30 UTC">2026-06-06</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="June 17, 2026 22:12:23 UTC"><span class="timeago" datetime="2026-06-17T22:12:23+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="June 17, 2026 22:12:23 UTC">2026-06-17</span>
   </span>
 
     

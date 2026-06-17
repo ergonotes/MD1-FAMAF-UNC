@@ -1434,14 +1434,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../Ecuaciones%20Diof%C3%A1nticas%20-%20%C3%81lgebra%20I%20-%20UBA%20-%20Teresa%20Krick/" class="md-nav__link">
+      <a href="../Ecuaciones%20Diof%C3%A1nticas/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Ecuaciones Diofánticas Álgebra I UBA Teresa Krick
+    Ecuaciones Diofánticas
   
 
     
@@ -1999,23 +1999,30 @@
 
 
 <h1 id="22-selecciones-ordenadas-con-repeticion">2.2 Selecciones Ordenadas con Repetición<a class="headerlink" href="#22-selecciones-ordenadas-con-repeticion" title="Permanent link">&para;</a></h1>
-<p>A lo largo de las notas se recurre a los conceptos de Ordenado y Sin repetición:
-- <strong>Ordenadas:</strong> El orden en que eliges los elementos importa (por ejemplo, elegir "A y luego B" es diferente de "B y luego A").
-- <strong>Sin repetición:</strong> No puedes elegir el mismo elemento más de una vez.</p>
+<p>A lo largo de las notas se recurre a los conceptos de Ordenado y Sin repetición:</p>
+<ul>
+<li><strong>Ordenadas:</strong> El orden en que eliges los elementos importa (por ejemplo, elegir "A y luego B" es diferente de "B y luego A").</li>
+<li><strong>Sin repetición:</strong> No puedes elegir el mismo elemento más de una vez.</li>
+</ul>
 <hr />
 <p>Formalmente, si <span class="arithmatex">\(A,B\)</span> conjuntos y definimos el producto cartesiano entre <span class="arithmatex">\(A\)</span> y <span class="arithmatex">\(B\)</span> por <span class="arithmatex">\(A×B={(a,b) : a ∈ A,b ∈B}\)</span>. Entonces si <span class="arithmatex">\(A\)</span> y <span class="arithmatex">\(B\)</span> son conjuntos finitos se cumple que <span class="arithmatex">\(|A×B| = |A|·|B|\)</span>.</p>
 <p>Un aplicación inmediata del principio de multiplicación es que nos permite calcular la cantidad de selecciones ordenadas con repetición.</p>
 <p><strong>Ejemplo.</strong> Sea <span class="arithmatex">\(X = {1,2,3}\)</span> <em>¿de cuántas formas se pueden elegir dos de estos números en forma ordenada?</em>
 Son <span class="arithmatex">\(9 =3^2\)</span> formas. Es claro que para la primera elección tenemos <span class="arithmatex">\(3\)</span> valores posibles y para la segunda elección tenemos también <span class="arithmatex">\(3\)</span> valores posibles, entonces, por el principio de multiplicación, tenemos en total <span class="arithmatex">\(3·3\)</span> elecciones posibles.</p>
 <hr />
-<p><strong>Ejemplo</strong>. Sea <span class="arithmatex">\(X\)</span> un conjunto de <span class="arithmatex">\(m\)</span> elementos. Queremos contar cuántos subconjuntos tiene este conjunto. Por ejemplo, si <span class="arithmatex">\(X = {a,b,c}\)</span> los subconjuntos de X son <span class="arithmatex">\(∅, {(a)}, {(b)}, {(c)}, {(a, b)}, {(a,c)},{(b,c)},{(a,b,c)}\)</span>. Es decir que existen <span class="arithmatex">\(8\)</span> subconjuntos de <span class="arithmatex">\(X\)</span>, un conjunto de <span class="arithmatex">\(3\)</span> elementos. 
+<p><strong>Ejemplo</strong>. Sea <span class="arithmatex">\(X\)</span> un conjunto de <span class="arithmatex">\(m\)</span> elementos. Queremos contar cuántos subconjuntos tiene este conjunto. Por ejemplo, si <span class="arithmatex">\(X = {a,b,c}\)</span> los subconjuntos de <span class="arithmatex">\(X\)</span> son <span class="arithmatex">\(∅, {(a)}, {(b)}, {(c)}, {(a, b)}, {(a,c)},{(b,c)},{(a,b,c)}\)</span>. Es decir que existen <span class="arithmatex">\(8\)</span> subconjuntos de <span class="arithmatex">\(X\)</span>, un conjunto de <span class="arithmatex">\(3\)</span> elementos. 
 Una forma de verlo seria la siguiente: podemos identificar cada subconjunto de <span class="arithmatex">\(X\)</span> con una terna ordenada de <span class="arithmatex">\(0’\)</span>s y <span class="arithmatex">\(1’\)</span>s de la siguiente manera: si <span class="arithmatex">\(a\)</span> está en el subconjunto la primera coordenada de la terna es <span class="arithmatex">\(1\)</span>, si no es <span class="arithmatex">\(0\)</span>; si <span class="arithmatex">\(b\)</span> está en el subconjunto la segunda coordenada de la terna es <span class="arithmatex">\(1\)</span>, si no es <span class="arithmatex">\(0\)</span>; y análogamente con <span class="arithmatex">\(c\)</span>. Tendríamos la identificación:</p>
-<p><em>Imagen no encontrada: Pasted image 20250324212533.png</em></p>
+<p><img alt="Pasted image 20250324212533.png" src="../../../assets%201/Pasted%20image%2020250324212533.png" /></p>
 <p>Observar entonces que seleccionar un subconjunto de <span class="arithmatex">\(X\)</span> es equivalente a elegir en forma ordenada <span class="arithmatex">\(3\)</span> elementos del conjunto {<span class="arithmatex">\(0,1\)</span>}; y sabemos entonces que en ese caso tenemos <span class="arithmatex">\(23\)</span> posibilidades. </p>
-<p>En general , cuando <span class="arithmatex">\(X\)</span> tiene <span class="arithmatex">\(n\)</span> elementos, elegir un subconjunto de <span class="arithmatex">\(X\)</span> es equivalente a elegir en forma ordenada <span class="arithmatex">\(n\)</span> elementos del conjunto {<span class="arithmatex">\(0,1\)</span>} y por lo tanto:
-<strong>Proposición 2.2.2.</strong> La cantidad de subconjuntos de un conjunto de <span class="arithmatex">\(n\)</span> elementos es <span class="arithmatex">\(2^n\)</span>.</p>
+<p>En general , cuando <span class="arithmatex">\(X\)</span> tiene <span class="arithmatex">\(n\)</span> elementos, elegir un subconjunto de <span class="arithmatex">\(X\)</span> es equivalente a elegir en forma ordenada <span class="arithmatex">\(n\)</span> elementos del conjunto {<span class="arithmatex">\(0,1\)</span>} y por lo tanto:</p>
+<p><strong>Proposición 2.2.2.</strong> La cantidad de subconjuntos de un conjunto de <span class="arithmatex">\(n\)</span> elementos es <span class="arithmatex">\(2^n\)</span>.</p>
 <p>Dado <span class="arithmatex">\(X\)</span> un conjunto, denotamos <span class="arithmatex">\(P(X)\)</span>, partes de <span class="arithmatex">\(X\)</span>, al conjunto formado por todos los subconjuntos de <span class="arithmatex">\(X\)</span>, por ejemplo <span class="arithmatex">\(P({1,2})={∅,{1},{2},{(1,2)}}\)</span>.</p>
 <p>Si <span class="arithmatex">\(X\)</span> es un conjunto finito: <span class="arithmatex">\(|P(X)|=2^{|X|}\)</span></p>
+<hr />
+<div class="admonition quote">
+<p class="admonition-title">Bibliografía y Fuentes</p>
+<p>Estos apuntes fueron redactados de forma colaborativa basándose en las clases de la cátedra oficial y el apunte <em>Matemática Discreta I. Alejandro Tiraboschi</em>.</p>
+</div>
 
 
 
@@ -2038,7 +2045,7 @@ Una forma de verlo seria la siguiente: podemos identificar cada subconjunto de <
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="April 7, 2025 16:51:08 UTC"><span class="timeago" datetime="2025-04-07T16:51:08+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="April 7, 2025 16:51:08 UTC">2025-04-07</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="June 17, 2026 22:12:23 UTC"><span class="timeago" datetime="2026-06-17T22:12:23+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="June 17, 2026 22:12:23 UTC">2026-06-17</span>
   </span>
 
     
